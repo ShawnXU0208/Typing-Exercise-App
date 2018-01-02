@@ -1,0 +1,105 @@
+
+
+.app-frame{
+	display: flex;
+	flex-direction: column;
+
+	background-color: #666666;
+	width: 90%;
+	height: 600px;
+	padding: 30px;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.passed-correctly{
+	color: #999999;
+}
+
+.passed-incorrectly{
+	color: #ffff00;
+}
+
+.unpassed-text{
+	color: #ffffff;
+}
+
+.current-focus{
+	color: #ffffff;
+	background-color: #999999;
+}
+
+.text-to-type{
+	letter-spacing: 1px;
+	outline: none;
+
+	font-family: 'Oxygen Mono';
+	font-size: 15px;
+	display: inline;
+	margin-top: 20px;
+}
+
+.keyboard-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+
+	font-family: 'Oxygen Mono';
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.keyboard-row{
+	margin: 30px;
+}
+
+.key{
+	text-align: center;
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 5px;
+	border-width: 1px;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 27px;
+	padding-left: 27px;
+	margin:10px;
+
+}
+
+.result-pane{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.pane-item{
+	margin: 80px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	font-weight: lighter;
+}
+
+.pane-icon{
+	color: #ffffff;
+	font-size: 50px;
+	margin: 0px;
+}
+
+.pane-content{
+	color: #ffffff;
+	font-size: 30px;
+	margin: 0px;
+	font-family: 'Oxygen Mono';
+}
+
